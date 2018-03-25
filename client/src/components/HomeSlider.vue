@@ -51,8 +51,9 @@ export default {
         items: 4,
         loop: true,
         margin: 10,
-        autoplay: true,
-        autoplayTimeout: 900,
+        autoplay: 3000,
+        autoplaySpeed: 3000,
+        autoplayTimeout: 4000,
         autoplayHoverPause: true,
         responsiveClass: true,
         responsive: {
